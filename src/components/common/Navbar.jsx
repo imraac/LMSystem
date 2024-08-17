@@ -35,11 +35,11 @@ function Navbar() {
   const handleLogout = async () => {
     await logout();
     navigate('/');
-    setIsMobileMenuOpen(false); // Close the mobile menu after logout
+    setIsMobileMenuOpen(false);  after logout
   };
 
   const handleLinkClick = () => {
-    setIsMobileMenuOpen(false); // Close the mobile menu after clicking a link
+    setIsMobileMenuOpen(false); 
   };
 
   return (
