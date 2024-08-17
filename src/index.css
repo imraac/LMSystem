@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+/* LoginModal.css */
+
+.modal-container {
+    transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
+  }
+  
+  .opacity-0 {
+    opacity: 0;
+  }
+  
+  .opacity-100 {
+    opacity: 1;
+  }
+  
+  .translate-y-10 {
+    transform: translateY(10px);
+  }
+  
+  .translate-y-0 {
+    transform: translateY(0);
+  }
+
+  .py-custom {
+    padding-top: 3.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  
+
+  
+  
+  
